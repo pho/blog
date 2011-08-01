@@ -1,8 +1,15 @@
 #!/bin/bash
+# If you are hosting your site in a different machine that the one which
+# runs your git repo, this script will help you to deploy easily your
+# Jekyll powered site/blog/thing
+#
+#																																~pho
+
 
 function create_deploy(){	
 		echo -n "Host where you are hosting the site: "
 		read host
+		echo "REMINDER: You have to configure your ssh login on that machine using a pair of rsa-keys"
 		echo -n "Absolute path to jekyll dest dir: "
 		read dest
 
@@ -33,7 +40,7 @@ if [ -d .git ]; then
 
 if [ -f _tools/deploy.sh ]; then
 	echo "There is an existing deploy script created."
-	echo "If you continue, it will be overwrited. Continue? [Y/N]"
+	echo -n "If you continue, it will be overwrited. Continue? [Y/N] "
 	read answer
 	if [[ $answer == [yY] ]]; then
 		create_deploy

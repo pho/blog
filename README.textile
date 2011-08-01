@@ -1,0 +1,17 @@
+h1. STATE: Alpha -as Fuck-
+
+This is going to be my personal site, with a little blog inside or something like that.
+Deployed with Jekyll and using github as a backup/central repo.
+
+h1. License
+
+The following directories and their contents are mine. You may not reuse anything in there without my permission:
+
+* _posts/
+* images/
+
+All other directories and files are MIT Licensed.
+
+
+h1. KTHXBYE
+Thx to Tom Preston-Werner for develop Jekyll, and for his HTML/CSS/README files.
