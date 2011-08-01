@@ -24,14 +24,19 @@
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-right: 20%;
     }
 
       .site .footer .contact a {
         color: #8085C1;
       }
 
-sectitle {
-  font-size: 120%;
+sectitle, post_title{
+  font-size: 150%;
   text-decoration: underline; 
   }
+
+post_date {
+  font-size: 80%;
+  color: #666;
+}
