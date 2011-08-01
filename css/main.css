@@ -1,5 +1,27 @@
+.site {
+	width: 80%;	
+	margin-left: 10%;
+}
+
+ .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+      .site .footer .contact a {
+        color: #8085C1;
+      }
+
 .title {
-	background-color: grey;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+	background-color: dark-grey;
+	font: 30px helvetica, arial, clean, sans-serif;
 	color: red;
 }
