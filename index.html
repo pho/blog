@@ -3,4 +3,18 @@ layout: default
 title: pho
 ---
 
-Oh Hai! :5
+<div id="home">
+  <sectitle>Posts</sectitle>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <sectitle>Notes</sectitle>
+  <ul class="posts">
+    {% for post in site.notes %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

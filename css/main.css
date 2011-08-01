@@ -3,6 +3,17 @@
 	margin-left: 10%;
 }
 
+.title {
+	font: 25px helvetica, arial, clean, sans-serif;
+	color: red;
+    	border-bottom: 4px solid #eee;
+    	margin-bottom: 1em;
+}
+
+ .title .extra {
+    font-size: 50%;
+ }
+
  .site .footer {
     font-size: 80%;
     color: #666;
@@ -20,8 +31,7 @@
         color: #8085C1;
       }
 
-.title {
-	background-color: dark-grey;
-	font: 30px helvetica, arial, clean, sans-serif;
-	color: red;
-}
+sectitle {
+  font-size: 120%;
+  text-decoration: underline; 
+  }

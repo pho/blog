@@ -1,0 +1,14 @@
+---
+layout: default
+title: Testing a Post
+---
+
+{{ page.title }}
+
+Bla.
+
+Lorem ipsum dolor sit amet...
+More Bla Bla Bla
+
+
+The Internet is Made of Cats.
