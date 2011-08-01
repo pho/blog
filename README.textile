@@ -8,7 +8,7 @@ h1. License
 The following directories and their contents are mine. You may not reuse anything in there without my permission:
 
 * _posts/
-* images/
+* _notes/
 
 All other directories and files are MIT Licensed.
 
