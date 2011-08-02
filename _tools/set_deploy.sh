@@ -3,7 +3,7 @@
 # runs your git repo, this script will help you to deploy easily your
 # Jekyll powered site/blog/thing
 #
-#																																~pho
+#                                                               ~pho
 
 
 function create_deploy(){	
