@@ -4,7 +4,7 @@
 }
 
 .title {
-	font: 25px helvetica, arial, clean, sans-serif;
+	font: 30px helvetica, arial, clean, sans-serif;
   border-bottom: 4px solid #eee;
   margin-bottom: 1em;
 }
@@ -13,9 +13,6 @@
     font-size: 50%;
  }
 
- .title img {
-	margin-left: 80%;
- }
  .site .footer {
     font-size: 80%;
     color: #666;
