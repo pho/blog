@@ -5,7 +5,7 @@ if [[ -f _posts/$filename ]]; then
 	editor _posts/$filename
 else
 	echo "---" >> _posts/_$filename
-	echo "layout: default" >> _posts/_$filename
+	echo "layout: post" >> _posts/_$filename
 	echo "title: $title" >> _posts/_$filename
 	echo "---" >> _posts/_$filename
 	editor _posts/_$filename
