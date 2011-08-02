@@ -5,15 +5,17 @@
 
 .title {
 	font: 25px helvetica, arial, clean, sans-serif;
-	color: red;
-    	border-bottom: 4px solid #eee;
-    	margin-bottom: 1em;
+  border-bottom: 4px solid #eee;
+  margin-bottom: 1em;
 }
 
  .title .extra {
     font-size: 50%;
  }
 
+ .title img {
+	margin-left: 80%;
+ }
  .site .footer {
     font-size: 80%;
     color: #666;
