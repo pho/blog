@@ -1,0 +1,12 @@
+---
+layout: post
+title: A New Hope
+---
+
+Tras un par de intentos, parece que esta es la definitiva.
+Un blog que no necesita mantenimiento, completamente estatico gracias a <a href="https://github.com/mojombo/jekyll/wiki/">Jekyll</a>.
+No mas actualizaciones de plugins, no mas problemas de seguridad, no mas SPAM. Gestionado a traves de un repositorio git, el cual os invito a forkear para aumentar el numero de backups del sitio :D
+¿Editores WYSIWYG? nah, escribo los post con mi editor favorito en cada momento (Actualmente vim).
+¿Comentarios? Si alguien quiere comentar algo, en el footer de todas las paginas están las formas de encontrarme en la red :3
+
+~pho
