@@ -1,0 +1,12 @@
+---
+layout: post
+title: Colores con pygments
+---
+
+Para que el resaltado de la sintaxis que Jekyll provee a través de pygments funcione con colores, hay que añadir cierto css generado con el propio pygments:
+
+{% highlight bash %}
+$ pygmentize -S default -f html
+{% endhighlight %}
+
+Tan solo falta incluir el css en los layouts ;)
