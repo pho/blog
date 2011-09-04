@@ -3,14 +3,16 @@
 	margin-left: 10%;
 }
 
-.title {
-	font: 30px helvetica, arial, clean, sans-serif;
+.header {
   border-bottom: 4px solid #ccc;
   margin-bottom: 1em;
 }
 
- .title .extra {
-    font-size: 50%;
+ .header .title {
+	  font: 30px helvetica, arial, clean, sans-serif;
+ }
+ .header .extra {
+    font-size: 60%;
  }
 
  .site .footer {
