@@ -1,0 +1,12 @@
+---
+layout: post
+title: Arreglando un Sony Vaio VGN-NR32Z
+---
+
+<p>Resulta que algunos Sony Vaio salieron de fabrica con una NVIDIA 8400m GT defectuosa, y al cabo de un tiempo y a causa del calor, acaban apareciendo variaciones de: <iframe width="420" height="315" src="http://www.youtube.com/embed/vVIH3IaSyvY" frameborder="0" allowfullscreen></iframe>
+<p>Y mi VGN-NR32Z traia una de esas graficas, y acabó con la misma suerte.
+<p>Tras MUCHO tiempo al telefono con Sony, se desentienden del fallo, y en una tienda nos ofrecen una reparacion -posiblemente- temporal por un precio bastante elevado, pero oye: funcionó, y era mas barato que un portatil nuevo... pero como nos advirtieron, fue temporal.
+<p>Destornillador en mano y decidido a observar el apaño que hizo el tecnico para ver si podia reproducirlo y ahorrarme una pasta, abro el portatil, y no encuentro ni rastro de manipulacion ._. Buscando por la red encuentro que el problema es similar al de las Xbox360 y sus 3RL, la GPU se calienta en exceso, y se fastidia la soldadura de la grafica con la placa, y por supuesto hablan de la misma solucion: Meter la placa en el horno, o darle con un secador. (Imagino que por eso no se nota la reparacion de la tienda, si es que usó este metodo pero con herramientas profesionales)
+<p>Pero antes de darle con el secador, encuentro un video en youtube con una interesante tecnica: quitar unicamente la refrigeracion de la grafica, y encender el portatil para que se caliente y refunda las soldaduras.
+<p>Me decido a probar, levanto la placa de disipacion de la grafica (encuentro pasta termica reseca ¬_¬), enciendo unos segundos, empieza a girar el ventilador, y al poco... et voilá! Todo vuelve a la normalidad! Apago el portatil para que no se caliente en exceso y lo dejo reposar. Pasta termica nueva, cierro el portatil y como por arte de magia, me he ahorrado una pasta! :D
+<p>Está claro que es una medida muy temporal, pero confio en que con pasta termica nueva, y puesto que el portatil está practicamente dedicado a ofimatica y no se volverá a usar para jugar, duré un par de años por lo menos!
