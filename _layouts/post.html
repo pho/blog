@@ -6,8 +6,8 @@
 
 <meta name="author" content="pho" />
 
-<link rel="stylesheet" href="/css/main.css" type="text/css" />
-<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" />
 </head>
 <body>
 
@@ -16,18 +16,18 @@
 <div class="header">
 
 <div class="title">
-<a href="/" alt="main">pho@net:~$ ls</a>
+<a href="{{ site.baseurl }}/" alt="main">pho@net:~$ ls</a>
 
 <div class ="extra">
-<a href="/">.</a>
-<a href="/">..</a>
-<a href="/signature.html">GPG/</a>
+<a href="{{ site.baseurl }}/">.</a>
+<a href="{{ site.baseurl }}/">..</a>
+<a href="{{ site.baseurl }}/signature.html">GPG/</a>
 </div>
 
 </div>
 </div>
 
-<img src="/images/header_cat.png" alt="lolcat" height="100" width="100" style="float: right;" border=3 />
+<img src="{{ site.baseurl }}/images/header_cat.png" alt="lolcat" height="100" width="100" style="float: right;" border=3 />
 
 <post_title>{{ page.title }}</post_title> - <post_date>{{ page.date | date_to_string }}</post_date>
 <br />
